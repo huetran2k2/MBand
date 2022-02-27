@@ -1,0 +1,130 @@
+/* mobile */
+
+@media (max-width: 740px) {
+
+    .nav {
+        display: block;
+    }
+
+    .nav > li {
+        display: block;
+        background-color: black;      
+    }
+
+    .nav > li:first-child {
+        display: inline-block;    
+    }
+
+    .nav .sub-nav {
+        position: initial;
+        background-color: #333;
+    }
+
+   
+
+    .nav .sub-nav a{
+        color: #fff;
+        padding: 0 41px;
+        line-height: 48px;
+    }
+    .cusss{
+        color: #fff;
+        padding: 0 41px;
+        line-height: 48px;
+
+    }
+
+    .header-search {
+        display: none;
+    }
+
+    #header .header-menu {
+        display: inline-block;
+    }
+
+    #header {
+	    overflow: hidden;
+
+    }
+
+    .mobile-item {
+        /* margin-bottom: 15px; */
+        width: 100% !important; 
+    }
+
+    .contact-fomt {
+        margin-top: 8px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .modal-tickets .img {
+        margin-bottom: 14px;
+        width: 50%;
+        display: inline-block;
+    }
+
+    .mobile-itemPP{
+        width: 50%;
+        display: inline-block;
+
+    }
+    .grid-mb{
+        display: flex;
+        margin-right: 23px;
+        /* flex-direction: column; */
+        
+    }
+    .none-mb{
+        display: none;
+    }
+    .mg-0-mb{
+        margin-bottom: 0 !important;
+        margin-right: 24px !important;
+    }
+
+    .login-wrap{
+      
+        width: 100%;
+    }
+
+    .modal-login{
+        /* position: sticky; */
+        top: -102px;
+        overflow-y: auto;
+
+    }
+
+    .modal-container{
+        /* margin: -28px auto 0; */
+        /* position: -webkit-sticky; */
+        /* position: sticky; */
+        /* top: -100px; */
+        overflow-y: auto;
+    }
+    .pBox{
+        width: 77%;
+    }
+
+    .modal-tickets .col-one{
+        padding: 20px 0 5px 23px;
+    }
+    .row-m-m .col-mmm{
+        width: 100%;
+        
+    }
+    .btn-pay{
+        position: unset;
+    }
+    .pd-momo{
+        padding: 50px;
+    }
+}
+
+@media (min-width: 741px) and (max-width: 782px)  {
+    .modal-tickets .col-two{
+        width: 61.3333%;
+    }
+}
